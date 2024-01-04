@@ -1,0 +1,161 @@
+Body {
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    text-align: center;
+}
+
+/* Header*/
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: rgba(171, 56, 175, 0.233) dotted underline;
+    text-underline-position: under;
+}
+
+/* Nav bar */
+
+nav { 
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+  
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-shadow: 2px 4px 4px rgb(0, 0, 0);
+}
+
+/* Profile pic + description */
+
+h2 {
+    font-family: 'Crimson Text', serif;
+}
+
+img {
+    filter: drop-shadow(30px 10px 4px #c437c47a);
+    width: 21%;
+}
+
+p {
+    font-family: 'Scope One', serif;
+    border-radius: 20px;
+    color: #fff9fdde;
+    white-space: pre-wrap;
+}
+
+section p:hover {
+    background-color: #1218224d;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1218224d;
+    color: white;
+}
+
+tr:hover {
+    background-color: #a9c9ff5e;
+}
+
+/* CSS for the list of skills */
+
+ul {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-list, .right-list {
+    flex: 1;
+}
+
+i {
+    font-size: 60px;
+}
+
+/* Hobby page */
+
+iframe {
+    width: 560px;
+    height: 315px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+li {
+    font-family: 'Scope One', serif;
+}
+
+/* Form */
+
+.form-example {
+    display: table;
+    font-family: 'Scope One', serif;
+    padding: 20px;
+}
+
+legend {
+ padding-bottom: 30px;
+ font-weight: bold;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+/* End of page footer*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    font-family: 'Scope One', serif;
+    background-color: #c26aaf3a;
+    border-radius: 20px;
+    color: #fff9fdde;
+}
+
+/* CSS Media querys */
+
+@media screen and (max-width: 768px) {
+iframe {
+    width: 100%;
+}
+
+img {
+    width: 50%;
+}
+
+textarea {
+    width: 100%;
+}
+}
